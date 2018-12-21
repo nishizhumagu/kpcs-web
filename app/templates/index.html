@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block title %}Login - K P C S{% endblock %}
+{% block page_content %}
+    <div class="page-header">
+        <h1>你好,
+            {% if current_user.is_authenticated %}
+            {{ current_user.real_name }}
+            {% else %}
+                请<a href="{{ url_for('auth.login') }}"><em>登录</em></a>
+            {% endif %}!
+        </h1>
+    </div>
+    <div>
+
+    </div>
+{% endblock %}

@@ -11,10 +11,11 @@ flask-sqlalchemy = "*"
 flask-wtf = "*"
 flask-script = "*"
 flask-login = "*"
-flask-bootstrap = "*"
 flask-migrate = "*"
 flask-moment = "*"
 pymysql = "*"
+flask-dropzone = "*"
+bootstrap-flask = "*"
 
 [requires]
 python_version = "3.7"

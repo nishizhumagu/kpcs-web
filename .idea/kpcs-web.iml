@@ -17,7 +17,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.7 (kpcs-web-DXMaMaU9)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Pipenv (kpcs-web)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

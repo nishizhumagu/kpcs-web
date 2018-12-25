@@ -17,6 +17,7 @@ flask-moment = "*"
 pymysql = "*"
 flask-dropzone = "*"
 bootstrap-flask = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"
